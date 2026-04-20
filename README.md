@@ -10,6 +10,8 @@ The goal of this task is to assess how you translate a Figma design into a clean
 
 You’ll be given a Figma frame of a job listing layout.
 
+👉 **[View the Figma design here](https://www.figma.com/design/3EZV6GR1RwDd6YlJBvBtrS/FED---TASK?node-id=0-1&t=DsKb8uM2zJ2DVmjb-1)**
+
 Your job is to build this UI as closely as possible in **Next.js**, matching the design pixel-perfectly.
 
 This is intentionally a small component-focused task.
@@ -82,3 +84,13 @@ npm install
 
 Start the dev server:
 npm run dev
+
+---
+
+## 📤 Submission
+
+Follow the instructions in order to complete the test and push your changes back to your fork. Spend no longer than 1 hour doing the initial task and extended tasks.
+
+If you would like to add any notes about the test such as how you would further improve it or productionise it, feel free to outline these in your README.
+
+Send us the URL of your fork or a Vercel deployment (no zip files) and ensure we can access it.
