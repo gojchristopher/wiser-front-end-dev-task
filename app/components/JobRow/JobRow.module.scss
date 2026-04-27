@@ -1,3 +1,144 @@
 .row {
-  //add styles
+  display: grid;
+  grid-template-columns: 1fr 126px 1fr 1fr;
+  gap: 125px;
+  align-items: center;
+  height: 136px;
+  margin: 0 auto;
+
+  padding: 14px 0;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  max-width: 274px;
+  width: 100%;
+  gap: 6px;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #111;
+}
+
+.team {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #111;
+}
+
+.brand {
+  justify-self: center;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.location {
+  justify-self: start;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  color: #111;
+  max-width: 180px;
+}
+
+.logo {
+  display: block;
+  height: 26px;
+  width: auto;
+  object-fit: contain;
+}
+
+.action {
+  justify-self: end;
+}
+
+.viewJob {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 40px;
+  width: 171px;
+  padding: 0 22px;
+  border-radius: 999px;
+  border: 1px solid #111;
+  background: transparent;
+  color: #111;
+
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+
+  transition:
+    background-color 120ms ease,
+    color 120ms ease,
+    border-color 120ms ease;
+}
+
+.viewJob:hover {
+  background: #111;
+  color: #fff;
+}
+
+.viewJob:focus-visible {
+  outline: 2px solid rgba(17, 17, 17, 0.55);
+  outline-offset: 2px;
+}
+
+@media (max-width: 820px) {
+  .row {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "brand action"
+      "title action"
+      "team action"
+      "location action";
+    gap: 14px 18px;
+    align-items: start;
+    padding: 10px 0;
+  }
+
+  .left {
+    display: contents;
+  }
+
+  .title {
+    grid-area: title;
+  }
+
+  .team {
+    grid-area: team;
+  }
+
+  .brand {
+    grid-area: brand;
+    justify-self: start;
+    text-align: left;
+  }
+
+  .location {
+    grid-area: location;
+    max-width: 42ch;
+  }
+
+  .action {
+    grid-area: action;
+    align-self: center;
+  }
 }
