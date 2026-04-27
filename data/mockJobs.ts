@@ -5,6 +5,7 @@ export type Job = {
   brand: string;
   location: string;
   link: string;
+  logoUrl: string;
 };
 
 export const mockJobs = [
@@ -15,6 +16,7 @@ export const mockJobs = [
     brand: "NEXT",
     location: "Luton, Bedfordshire",
     link: "/jobs/team-member-stock-luton",
+    logoUrl: "/images/next.png",
   },
   {
     id: "job-002",
@@ -23,6 +25,7 @@ export const mockJobs = [
     brand: "Victoria’s Secret",
     location: "Plymouth, Devon",
     link: "/jobs/sales-associate-vs-plymouth",
+    logoUrl: "/images/victoria-secret.png",
   },
   {
     id: "job-003",
@@ -31,6 +34,7 @@ export const mockJobs = [
     brand: "JOULES",
     location: "Leicester, Leicestershire",
     link: "/jobs/assistant-buyer-joules",
+    logoUrl: "/images/joules.png",
   },
   {
     id: "job-004",
@@ -39,6 +43,7 @@ export const mockJobs = [
     brand: "GAP",
     location: "Trafford, Lancashire",
     link: "/jobs/ecommerce-trading-manager-gap",
+    logoUrl: "/images/gap.png",
   },
   {
     id: "job-005",
@@ -47,6 +52,7 @@ export const mockJobs = [
     brand: "NEXT",
     location: "Tottenham Court Road, London",
     link: "/jobs/assistant-merchandiser-home-textiles",
+    logoUrl: "/images/next.png",
   },
   {
     id: "job-006",
@@ -55,6 +61,7 @@ export const mockJobs = [
     brand: "LIPSY",
     location: "London, London",
     link: "/jobs/assistant-merchandiser-lipsy",
+    logoUrl: "/images/lipsy.png",
   },
   {
     id: "job-007",
@@ -63,6 +70,7 @@ export const mockJobs = [
     brand: "NEXT",
     location: "Colombo, Sri Lanka",
     link: "/jobs/operations-manager-cloud",
+    logoUrl: "/images/next.png",
   },
   {
     id: "job-008",
@@ -71,6 +79,7 @@ export const mockJobs = [
     brand: "Cath Kidston",
     location: "London, London",
     link: "/jobs/assistant-merchandiser-cath-kidston",
+    logoUrl: "/images/cath-kidston.png",
   },
   {
     id: "job-009",
@@ -79,6 +88,7 @@ export const mockJobs = [
     brand: "JOULES",
     location: "Market Harborough, Leicestershire",
     link: "/jobs/assistant-merchandiser-joules-menswear",
+    logoUrl: "/images/joules.png",
   },
   {
     id: "job-010",
@@ -87,5 +97,6 @@ export const mockJobs = [
     brand: "MADE",
     location: "London, London",
     link: "/jobs/product-manager-made",
+    logoUrl: "/images/made.png",
   },
 ];
